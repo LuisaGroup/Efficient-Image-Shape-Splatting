@@ -6,7 +6,6 @@ The code is based on [AkariRender](https://github.com/shiinamiyuki/akari_render)
 - [shape_splat_mcmc.rs](crates/akari_integrator/src/shape_splat_mcmc.rs) contains the implementation of the shape splatting integrator on top of a unidirectional PSSMLT. It should be run on CPU only.
 
 ## Build
-## Building:
 If you are using < Windows 10, please upgrade to Windows 10 or above.
 - Rust 1.81.0+
 - CMake > 3.23
