@@ -1,0 +1,29 @@
+[
+     {
+        "method": {
+            "spp": 32,
+            "direct_spp": 0,
+            "n_bootstrap": 1000000,
+            "max_depth": 12,
+            "spp_per_pass": 1,
+            "use_nee": true,
+            "shape_width": 5,
+            "reconnect": true,
+            "uniform": false,
+            "stride": 2,
+            "denoiser_kernel": true,
+            "type": "ssmcmc"
+        },
+        "sampler": {
+            "type": "pmj02bn",
+            "seed": 0
+        },
+        "film": {
+            "filter": {
+                "type": "gaussian",
+                "radius": 1.5
+            },
+            "out": "output/ssmcmc.exr"
+        }
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "method": {
+            "spp": 256,
+            "max_depth": 12,
+            "rr_depth": 5,
+            "spp_per_pass": 16,
+            "use_nee": true,
+            "force_diffuse": false,
+            "indirect_only": false,
+            "shape_width": 6,
+            "curve": "hilbert",
+            "stride": 2,
+            "reconnect": true,
+            "pmf_power": -2.0,
+            "min_dist": 0.03,
+            "min_roughness": 0.2,
+            "denoiser_kernel": true,   
+            "async_compile": false,
+            "sample_all":false,
+            "randomize":true,
+            "type": "sspt"
+        },
+        "sampler": {
+            "type": "independent",
+            "seed": 0
+        },
+        "film": {
+            "filter": {
+                "type": "gaussian",
+                "radius": 1.5
+            },
+            "out": "output/sspt.exr"
+        }
+    }
+]

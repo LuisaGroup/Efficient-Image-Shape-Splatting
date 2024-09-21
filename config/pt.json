@@ -1,0 +1,23 @@
+{
+    "method": {
+        "spp": 512,
+        "max_depth": 12,
+        "rr_depth":5,
+        "spp_per_pass":32,
+        "use_nee": true,
+        "force_diffuse":false,
+        "indirect_only":false,
+        "type": "pt"
+    },
+    "sampler": {
+        "type": "pmj02bn",
+        "seed": 1
+    },
+    "film": {
+        "filter": {
+            "type": "gaussian",
+            "radius": 1.5
+        },
+        "out": "output/pt.exr"
+    }
+}

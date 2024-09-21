@@ -1,0 +1,6122 @@
+{
+  "camera": {
+    "type": "perspective",
+    "data": {
+      "transform": {
+        "type": "trs",
+        "data": {
+          "translation": [
+            5.046497,
+            2.2692578,
+            0.75843704
+          ],
+          "rotation": [
+            1.5904622,
+            0.01444007,
+            1.817786
+          ],
+          "scale": [
+            1.0000001,
+            1.0,
+            1.0
+          ],
+          "coordinate_system": "Blender"
+        }
+      },
+      "fov": 85.797745,
+      "focal_distance": 10.0,
+      "fstop": 2.8,
+      "sensor_width": 1280,
+      "sensor_height": 720
+    }
+  },
+  "instances": {
+    "fireplace_room": {
+      "geometry": {
+        "id": "fireplace_room_mesh"
+      },
+      "transform": {
+        "type": "matrix",
+        "data": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            7.54979e-8,
+            0.0
+          ],
+          [
+            0.0,
+            -7.54979e-8,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "materials": [
+        {
+          "id": "grey_and_white_room:TableWood"
+        },
+        {
+          "id": "grey_and_white_room:Glass"
+        },
+        {
+          "id": "grey_and_white_room:BottleCap"
+        },
+        {
+          "id": "grey_and_white_room:PaintingBack"
+        },
+        {
+          "id": "grey_and_white_room:MattePaint"
+        },
+        {
+          "id": "grey_and_white_room:Painting"
+        },
+        {
+          "id": "grey_and_white_room:Leaves"
+        },
+        {
+          "id": "grey_and_white_room:Branches"
+        },
+        {
+          "id": "grey_and_white_room:Dirt"
+        },
+        {
+          "id": "grey_and_white_room:PlantPot"
+        },
+        {
+          "id": "grey_and_white_room:SofaLegs"
+        },
+        {
+          "id": "grey_and_white_room:Sofa"
+        },
+        {
+          "id": "grey_and_white_room:Paneling"
+        },
+        {
+          "id": "grey_and_white_room:Walls"
+        },
+        {
+          "id": "grey_and_white_room:Floor"
+        },
+        {
+          "id": "grey_and_white_room:Mirror"
+        },
+        {
+          "id": "grey_and_white_room:FireplaceGlass"
+        },
+        {
+          "id": "grey_and_white_room:BrushedStainlessSteel"
+        },
+        {
+          "id": "grey_and_white_room:Transluscent"
+        },
+        {
+          "id": "grey_and_white_room:initialShadingGroup"
+        },
+        {
+          "id": "lambert3SG"
+        },
+        {
+          "id": "grey_and_white_room:lambert2SG_light"
+        }
+      ]
+    }
+  },
+  "geometries": {
+    "fireplace_room_mesh": {
+      "type": "mesh",
+      "vertices": {
+        "id": "buf_view_0"
+      },
+      "indices": {
+        "id": "buf_view_1"
+      },
+      "normals": {
+        "id": "buf_view_2"
+      },
+      "uvs": {
+        "id": "buf_view_3"
+      },
+      "tangents": {
+        "id": "buf_view_4"
+      },
+      "materials": {
+        "id": "buf_view_5"
+      }
+    }
+  },
+  "materials": {
+    "grey_and_white_room:BottleCap": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.46,
+              0.0,
+              0.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.4
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_1": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_1"
+            }
+          },
+          "Principled_BSDF_1": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_1"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:Branches": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.16,
+              0.08,
+              0.02
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.4
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_6": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_6"
+            }
+          },
+          "Principled_BSDF_6": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_6"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:BrushedStainlessSteel": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.42252213,
+              0.42252213,
+              0.42252213
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.15833962
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.45865923
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.7266667
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_16": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_16"
+            }
+          },
+          "Principled_BSDF_16": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_16"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:Dirt": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.1,
+              0.05,
+              0.04
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.4
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_7": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_7"
+            }
+          },
+          "Principled_BSDF_7": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_7"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:FireplaceGlass": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.023169696,
+              0.023169696,
+              0.023169696
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.08600682
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.7324022
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.1
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_15": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_15"
+            }
+          },
+          "Principled_BSDF_15": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_15"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:Floor": {
+      "shader": {
+        "nodes": {
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "Image_Texture_2"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.24264704
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.22852941
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.20358606
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.31112435
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.5052941
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Image_Texture_2": {
+            "type": "image",
+            "image": {
+              "data": {
+                "id": "wood_png"
+              },
+              "format": "png",
+              "colorspace": "srgb",
+              "extension": "repeat",
+              "interpolation": "linear",
+              "width": 2048,
+              "height": 910,
+              "channels": 4
+            },
+            "uv": null
+          },
+          "Material_Output_13": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_13"
+            }
+          },
+          "Principled_BSDF_13": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_13"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:Glass": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.096758954
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.0036764706
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_0": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_0"
+            }
+          },
+          "Principled_BSDF_0": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_0"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:Leaves": {
+      "shader": {
+        "nodes": {
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "Image_Texture_1"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.992254
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.4
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Image_Texture_1": {
+            "type": "image",
+            "image": {
+              "data": {
+                "id": "leaf_png"
+              },
+              "format": "png",
+              "colorspace": "srgb",
+              "extension": "repeat",
+              "interpolation": "linear",
+              "width": 256,
+              "height": 190,
+              "channels": 4
+            },
+            "uv": null
+          },
+          "Material_Output_5": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_5"
+            }
+          },
+          "Principled_BSDF_5": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_5"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:MattePaint": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.9,
+              0.9,
+              0.9
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.7770271
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.4
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_3": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_3"
+            }
+          },
+          "Principled_BSDF_3": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_3"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:Mirror": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.8,
+              0.8,
+              0.8
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.95
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_14": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_14"
+            }
+          },
+          "Principled_BSDF_14": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_14"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:Painting": {
+      "shader": {
+        "nodes": {
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "Image_Texture_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.4
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Image_Texture_0": {
+            "type": "image",
+            "image": {
+              "data": {
+                "id": "picture8_png"
+              },
+              "format": "png",
+              "colorspace": "srgb",
+              "extension": "repeat",
+              "interpolation": "linear",
+              "width": 1024,
+              "height": 682,
+              "channels": 4
+            },
+            "uv": null
+          },
+          "Material_Output_4": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_4"
+            }
+          },
+          "Principled_BSDF_4": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_4"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:PaintingBack": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.26,
+              0.25,
+              0.14
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.4
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_2": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_2"
+            }
+          },
+          "Principled_BSDF_2": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_2"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:Paneling": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.9,
+              0.9,
+              0.9
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.92928934
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.1
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_11": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_11"
+            }
+          },
+          "Principled_BSDF_11": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_11"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:PlantPot": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.1,
+              0.1,
+              0.1
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.4
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_8": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_8"
+            }
+          },
+          "Principled_BSDF_8": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_8"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:Sofa": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.9,
+              0.9,
+              0.88
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.047794104
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_10": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_10"
+            }
+          },
+          "Principled_BSDF_10": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_10"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:SofaLegs": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.1,
+              0.1,
+              0.1
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_9": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_9"
+            }
+          },
+          "Principled_BSDF_9": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_9"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:TableWood": {
+      "shader": {
+        "nodes": {
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "Image_Texture"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.992254
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.4
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.04
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Image_Texture": {
+            "type": "image",
+            "image": {
+              "data": {
+                "id": "wood5_png"
+              },
+              "format": "png",
+              "colorspace": "srgb",
+              "extension": "repeat",
+              "interpolation": "linear",
+              "width": 1024,
+              "height": 1024,
+              "channels": 4
+            },
+            "uv": null
+          },
+          "Material_Output": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF"
+            }
+          },
+          "Principled_BSDF": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:Transluscent": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.3,
+              0.3,
+              0.3
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.4
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_17": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_17"
+            }
+          },
+          "Principled_BSDF_17": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_17"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:Walls": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.17,
+              0.132,
+              0.1
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 0.05514706
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_12": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_12"
+            }
+          },
+          "Principled_BSDF_12": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_12"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:initialShadingGroup": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 0.0
+          },
+          "Material_Output_18": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_18"
+            }
+          },
+          "Principled_BSDF_18": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_18"
+        },
+        "kind": "surface"
+      }
+    },
+    "grey_and_white_room:lambert2SG_light": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              0.91597116,
+              0.7468964
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 4.0
+          },
+          "Material_Output_20": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_20"
+            }
+          },
+          "Principled_BSDF_20": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_20"
+        },
+        "kind": "surface"
+      }
+    },
+    "lambert3SG": {
+      "shader": {
+        "nodes": {
+          "$tmp_0": {
+            "type": "rgb",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_1": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_0"
+            }
+          },
+          "$tmp_10": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_11": {
+            "type": "float",
+            "value": 0.03
+          },
+          "$tmp_12": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_13": {
+            "type": "float",
+            "value": 1.5
+          },
+          "$tmp_14": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_15": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_14"
+            }
+          },
+          "$tmp_16": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_17": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_18": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_19": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_2": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_20": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_19"
+            }
+          },
+          "$tmp_21": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_22": {
+            "type": "float3",
+            "value": [
+              1.0,
+              0.2,
+              0.1
+            ]
+          },
+          "$tmp_23": {
+            "type": "float",
+            "value": 0.05
+          },
+          "$tmp_24": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_25": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_26": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_27": {
+            "type": "float",
+            "value": 1.0
+          },
+          "$tmp_28": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_29": {
+            "type": "float3",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "$tmp_3": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_4": {
+            "type": "float",
+            "value": 0.0
+          },
+          "$tmp_5": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_6": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_5"
+            }
+          },
+          "$tmp_7": {
+            "type": "rgb",
+            "value": [
+              1.0,
+              0.8406615,
+              0.6597421
+            ],
+            "colorspace": "srgb"
+          },
+          "$tmp_8": {
+            "type": "spectral_uplift",
+            "rgb": {
+              "id": "$tmp_7"
+            }
+          },
+          "$tmp_9": {
+            "type": "float",
+            "value": 4.0
+          },
+          "Material_Output_19": {
+            "type": "output",
+            "node": {
+              "id": "Principled_BSDF_19"
+            }
+          },
+          "Principled_BSDF_19": {
+            "type": "principled",
+            "base_color": {
+              "id": "$tmp_1"
+            },
+            "metallic": {
+              "id": "$tmp_3"
+            },
+            "roughness": {
+              "id": "$tmp_2"
+            },
+            "ior": {
+              "id": "$tmp_17"
+            },
+            "alpha": {
+              "id": "$tmp_27"
+            },
+            "normal": {
+              "id": "$tmp_28"
+            },
+            "subsurface_weight": {
+              "id": "$tmp_21"
+            },
+            "subsurface_radius": {
+              "id": "$tmp_22"
+            },
+            "subsurface_scale": {
+              "id": "$tmp_23"
+            },
+            "subsurface_anisotropy": {
+              "id": "$tmp_24"
+            },
+            "specular_ior_level": {
+              "id": "$tmp_4"
+            },
+            "specular_tint": {
+              "id": "$tmp_6"
+            },
+            "anisotropic": {
+              "id": "$tmp_26"
+            },
+            "anisotropic_rotation": {
+              "id": "$tmp_25"
+            },
+            "tangent": {
+              "id": "$tmp_29"
+            },
+            "transmission_weight": {
+              "id": "$tmp_16"
+            },
+            "sheen_weight": {
+              "id": "$tmp_18"
+            },
+            "sheen_tint": {
+              "id": "$tmp_20"
+            },
+            "coat_weight": {
+              "id": "$tmp_10"
+            },
+            "coat_roughness": {
+              "id": "$tmp_11"
+            },
+            "coat_ior": {
+              "id": "$tmp_13"
+            },
+            "coat_tint": {
+              "id": "$tmp_15"
+            },
+            "coat_normal": {
+              "id": "$tmp_12"
+            },
+            "emission_color": {
+              "id": "$tmp_8"
+            },
+            "emission_strength": {
+              "id": "$tmp_9"
+            },
+            "preference": "mix"
+          }
+        },
+        "output": {
+          "id": "Material_Output_19"
+        },
+        "kind": "surface"
+      }
+    }
+  },
+  "lights": {},
+  "buffers": {
+    "Scene": {
+      "type": "path",
+      "path": "Scene.bin",
+      "length": 22203001
+    }
+  },
+  "buffer_views": {
+    "buf_view_0": {
+      "buffer": {
+        "id": "Scene"
+      },
+      "offset": 16035376,
+      "length": 1434420
+    },
+    "buf_view_1": {
+      "buffer": {
+        "id": "Scene"
+      },
+      "offset": 0,
+      "length": 1718076
+    },
+    "buf_view_2": {
+      "buffer": {
+        "id": "Scene"
+      },
+      "offset": 2290768,
+      "length": 5154228
+    },
+    "buf_view_3": {
+      "buffer": {
+        "id": "Scene"
+      },
+      "offset": 12599224,
+      "length": 3436152
+    },
+    "buf_view_4": {
+      "buffer": {
+        "id": "Scene"
+      },
+      "offset": 7444996,
+      "length": 5154228
+    },
+    "buf_view_5": {
+      "buffer": {
+        "id": "Scene"
+      },
+      "offset": 1718076,
+      "length": 572692
+    },
+    "leaf_png": {
+      "buffer": {
+        "id": "Scene"
+      },
+      "offset": 17469796,
+      "length": 70228
+    },
+    "picture8_png": {
+      "buffer": {
+        "id": "Scene"
+      },
+      "offset": 17540024,
+      "length": 762697
+    },
+    "wood5_png": {
+      "buffer": {
+        "id": "Scene"
+      },
+      "offset": 18302721,
+      "length": 1295578
+    },
+    "wood_png": {
+      "buffer": {
+        "id": "Scene"
+      },
+      "offset": 19598299,
+      "length": 2604702
+    }
+  }
+}
