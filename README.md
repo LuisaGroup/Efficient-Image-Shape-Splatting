@@ -1,5 +1,6 @@
 # Efficient Image-Space Shape Splatting for Monte Carlo Rendering
 Code for SIGGRAPH Asia 2024 Paper ["Efficient Image-Space Shape Splatting for Monte Carlo Rendering"](https://cs.uwaterloo.ca/~xtong/assets/pdf/shape_splatting.pdf).
+![](images/teaser.jpeg)
 
 The code is based on [AkariRender](https://github.com/shiinamiyuki/akari_render). The two main files are:
 -  [shape_splat_pt.rs](crates/akari_integrator/src/shape_splat_pt.rs) contains the implementation of the shape splatting integrator on top of path tracing. This integrator is designed to run on GPU and uses the wavefront scheduling proposed in the paper. Running the integrator on CPU is not recommended.
